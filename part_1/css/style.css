@@ -50,23 +50,23 @@
 
 .menu li {
    float: left;
-   margin-right:10px;
  }
 
  .menu ul li a {
     line-height: 35px;
     color:#499bd5;
     text-decoration: none;
+    padding-right: 8px;
+    padding-left: 5px;
  }
 
 .menu li:hover {
    background-color:#4eabda;
-   padding-left: 15px;
-   padding-right:15px;
 }
 
 .menu li:hover a{
    color:white;
+   font-weight: bold;
 }
 
 .menu ul li img{ /*выравнивание картинки и текста по вертикали*/
@@ -92,7 +92,7 @@
 }
 .menu li:last-child {
   position: absolute;
-  right: 30px;
+  right: 19px;
 }
 
  .menu li:nth-last-child(2):hover, .menu li:last-child:hover {
@@ -202,7 +202,7 @@ button span {
 }
 
 /*input text section*/
-input[type=text], input[type=email],input[type=password] {
+.field {
     background-color: #111010;
     width:262px;
     height: 35px;
@@ -212,14 +212,14 @@ input[type=text], input[type=email],input[type=password] {
     border:none;
     border-bottom: 2px solid #484948;
     font-family:'Helvetica Neue Regular',Tahoma, sans-serif;
+    font-size: 14px;
 }
 
-input[type=text]:hover, input[type=email]:hover,input[type=password]:hover{
-    border:none;
+.field:focus {
     background-color: #1b5288;
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
-       -moz-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
-       box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(217,242,247,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(217,242,247,1);
+    box-shadow: 0px 0px 15px 0px rgba(217,242,247,1);
 }
 
 /*submit button*/
